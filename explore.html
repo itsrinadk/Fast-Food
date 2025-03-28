@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu-BH</title>
+  <style>body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Passion One', sans-serif;
+font-family: 'Paytone One', sans-serif;
+    background-color:  #e4e2c4;;
+  }
+
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+  }
+
+  
+  .box {
+    width: 48%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px 0 0 8px; 
+  }
+
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+  .text-box {
+    width: 48%;
+    padding: 20px;
+    color: #333;
+  }
+
+  .text-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #020202; 
+  }
+
+  .text-box p {
+    line-height: 1.6;
+  }
+
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column; 
+    }
+    .box,
+    .text-box {
+      width: 100%;
+      border-radius: 8px; 
+      margin: 5px 0; 
+    }
+  }
+  .boxx{
+    width: 400px; 
+    height: 100px; 
+    background-color: #f0f0f0; 
+    border: 2px solid black; 
+    
+    margin: 50px auto;
+    border-radius: 8px;
+  }
+  .order{
+    color: #333;
+    padding-left: 10px;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Paytone+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="navbar-link">Home</a>
+    <a href="menu.html" class="navbar-link">Menu</a>
+  </nav>
+ 
+  
+  <div class="container">
+    <div class="box">
+     <a href="207717011-fast-food-concept-assortment-of-fast-food.jpg"> <img src="207717011-fast-food-concept-assortment-of-fast-food.jpg" alt="BBQ Bacon Burger"></a>
+    </div>
+
+    <div class="text-box">
+      <h2>BBQ Bacon Burger:</h2>
+      <p>This burger features a juicy beef patty topped with crispy bacon, cheddar cheese, caramelized onions, and a generous drizzle of tangy barbecue sauce. The combination of smoky flavors from the bacon and barbecue sauce gives it a deliciously savory taste.</p>
+      <p>Price: 8.99$</p>
+    </div>
+  </div>
+  <div class="boxx">
+    <p class="order">Order and get 15% off this weekend using our promo code: BH15OFF</p>
+  </div>
+
+</body>
+</html>
